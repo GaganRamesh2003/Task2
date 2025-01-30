@@ -1,0 +1,272 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .navbar {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .nav-link {
+    color: #bbb;
+}
+
+body.dark-mode .nav-link:hover {
+    color: white;
+}
+
+body.dark-mode .navbar-toggler-icon {
+    background-color: white;
+}
+
+body.dark-mode .form-check-label {
+    color: white;
+}
+
+/* Styling for the main container */
+.container {
+    margin-top: 30px;
+}
+
+/* Style for the brand and navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+   
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Adjust the toggle button position */
+.form-check.form-switch {
+    margin-left: auto;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.skill-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.skill-section {
+    margin-bottom: 20px;
+}
+
+
+  /* Centering the Contact Info Section */
+  #contact-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact-info h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for the Contact Info List */
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-info ul li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+#contact-info ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Hover effect for links */
+#contact-info ul li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Instagram Icon Styling */
+#contact-info ul li i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #e4405f; /* Instagram red color */
+}
+
+#contact-info ul li i:hover {
+    color: #c13584; /* Instagram purple when hovered */
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.text-section {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.profile-pic img {
+    border: 5px solid #007bff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.intro-subtext {
+    font-size: 1.1rem;
+    color: #777;
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.card-body {
+    font-size: 1rem;
+    color: #555;
+}
+
+.form-check-label {
+    color: #007bff;
+}
+
+.form-check-input:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+/* Container for the contact section */
+#contact-info {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Heading style */
+#contact-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+.form-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #495057;
+}
+
+/* Input & Textarea styling */
+.form-control {
+    height: 45px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+}
+
+/* For the message textarea */
+textarea.form-control {
+    height: 150px;
+    resize: none;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Add some spacing between form fields */
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+/* Add focus effect for form fields */
+.form-control:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5);
+}
